@@ -7,7 +7,7 @@ public class Avião {
 	String material;
 	String marca;
 	String cor;
-	int pessoas;
+	int passageiros;
 	double velocidade;
 	
 	
@@ -31,18 +31,18 @@ public class Avião {
 	 void carregar(int passageiros) {
 		
 		if (passageiros> 100) {
-			System.out.println("Cheio");
+			System.out.println("Status: Cheio");
 			
-		}else if(this.pessoas < 100 && pessoas >40) {
+		}else if(this.passageiros < 100 && passageiros >40) {
 			
-			System.out.println("Regular");
+			System.out.println("Status: Regular");
 			
-		}else if(this.pessoas <40 && pessoas > 0) {
+		}else if(this.passageiros <40 && passageiros > 0) {
 			
-			System.out.println("Poucos Passageiros");
+			System.out.println("Status: Poucos Passageiros");
 		}else{
 			
-			System.out.println("Vazio");
+			System.out.println("Status: Vazio");
 		}
 		
 		
