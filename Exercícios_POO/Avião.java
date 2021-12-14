@@ -1,6 +1,6 @@
-package Exercícios_POO;
+package ExercÃ­cios_POO;
 
-public class Avião {
+public class AviÃ£o {
 
 	
 	//atributos
@@ -11,7 +11,7 @@ public class Avião {
 	double velocidade;
 	
 	
-	//métodos
+	//mÃ©todos
 	
 	double voar(double quantidade) {
 		
@@ -33,11 +33,11 @@ public class Avião {
 		if (passageiros> 100) {
 			System.out.println("Cheio");
 			
-		}else if(this.pessoas < 100 && pessoas >40) {
+		}else if(passageiros < 100 && passageiros >40) {
 			
 			System.out.println("Regular");
 			
-		}else if(this.pessoas <40 && pessoas > 0) {
+		}else if(passageiros <40 && passageiros > 0) {
 			
 			System.out.println("Poucos Passageiros");
 		}else{
